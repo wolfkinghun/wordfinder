@@ -1,0 +1,36 @@
+
+<!DOCTYPE html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+    <style>
+      :root{
+        --size:100px;
+      }
+    </style>
+   
+    
+    <title>Words</title>
+  </head>
+  
+  <body class="bg-blue-950 text-white">
+    <div id="timer" class="timer"></div>
+    <div class="flex flex-col items-center">
+      <h3 class="text-3xl p-8">Találd ki a szót!</h3>
+      <button  class="start bg-violet-800 text-indigo-50 px-5 py-2 rounded hover:bg-indigo-500 font-bold">start</button>
+      <div id="boxContainer" class="flex gap-2 justify-center mt-2"></div>
+      <div id="abc" class="flex flex-wrap gap-2 justify-center mt-2"></div>
+     
+    </div>
+    <script  type="module" src="main.js"></script>
+    <script>/*
+        function newstart(){
+    var element = document.getElementById(".timmer")
+    element.classList.add("app");
+}*/
+    </script>
+  </body>
+</html>
